@@ -1,0 +1,24 @@
+//.core-layout__viewport {
+//  padding-top: 4rem;
+//}
+.wrapper {
+    height: 100%;
+    backface-visibility: hidden;
+    .inner-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 100vh;
+        footer{
+            text-align: center;
+        }
+    }
+}
+.loading {
+    background-color: #183d68;
+    height: 3px;
+    z-index: 999;
+    position: absolute;
+    box-shadow: 0 0 6px #2683cc;
+}

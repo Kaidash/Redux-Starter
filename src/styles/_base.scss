@@ -1,0 +1,52 @@
+.react-bs-table-csv-btn{
+    .glyphicon{
+        display: none;
+    }
+}
+.dev-global-score-color{
+    color: #23527c;
+}
+.personal-header{
+   background: $text-blue;
+}
+.wrapper{
+  header {
+    width: 100%;
+    height: 10vh;
+    .title-home {
+      display: flex;
+      justify-content: center;
+    }
+    .by {
+      margin: 0 6px;
+    }
+  }
+}
+
+.logo-head{
+  background: url('../images/logo.svg') no-repeat 0 0;
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  .wrapper header .title-home{
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 501px) and (min-width: 320px) {
+  .wrapper header .title-home{
+    display: block;
+    text-align: center;
+  }
+  .core-layout__viewport{
+    min-height: 0;
+  }
+  .first-line{
+    display: block;
+    width: 100%;
+  }
+}

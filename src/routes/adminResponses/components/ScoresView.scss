@@ -1,0 +1,26 @@
+.detail-cell{
+  position: relative;
+  .details-btn{
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    padding: 3px 5px;
+    font-size: 13px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #ffffff;
+    transition: opacity 0.3s ease-in;
+    &:hover{
+      color: #ffffff;
+    }
+  }
+}
+.detail-cell:hover{
+  .details-btn{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in;
+  }
+}

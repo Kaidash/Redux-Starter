@@ -1,0 +1,38 @@
+.questions-page{
+  .field-error{
+    .field-box{
+      border-left: 3px solid $err-border-color;
+      background: $err-background;
+      .control-label {
+        color: $text-test-gray;
+      }
+    }
+    .form-group + div{
+      display: none;
+    }
+  }
+  .field-box{
+    border-left: 3px solid transparent;
+    background: transparent;
+  }
+}
+.personal-page{
+  .field-error.has-error{
+    .input-material-group .focus-border{
+      border-top: none $err-border-color;
+      border-left: none $err-border-color;
+      border-right: none $err-border-color;
+      border-bottom: 2px solid $err-border-color;
+      bottom: 8px;
+      box-sizing: content-box;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      transform: scaleX(1);
+      transition: all .45s cubic-bezier(.23,1,.32,1) 0ms
+    }
+    .form-group + div{
+      display: none;
+    }
+  }
+}

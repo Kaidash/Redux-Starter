@@ -1,0 +1,33 @@
+.home-view {
+    min-height: 90vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 8vw;
+    .home-container {
+        position: relative;
+    }
+    .slogan-home {
+        width: 100%;
+        margin: 10vh 0 4vh 0;
+        text-align: left;
+        .blue-line{
+            &:hover{
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+    .home-info {
+        text-align: left;
+        margin-bottom: 10vh;
+    }
+    footer{
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}

@@ -1,0 +1,11 @@
+.DS_STORE
+*.log
+node_modules
+dist/**/*
+dist-server/**/*.js
+dist-shared/**/*.js
+coverage
+data/questions_backup.yaml
+.idea/
+
+

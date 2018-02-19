@@ -1,0 +1,15 @@
+.blue-frame{
+  text-align: left;
+  background: $blue-sky;
+  border-radius: 5px;
+  padding: 35px 35px 35px 20%;
+}
+.time-frame{
+  position: relative;
+  .glyphicon{
+    position: absolute;
+    left: 7%;
+    top: 37%;
+    font-size: 40px;
+  }
+}

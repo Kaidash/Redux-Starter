@@ -1,0 +1,26 @@
+.admin-container{
+    padding-top: 30px;
+    .title-admin{
+        margin-top: 0;
+    }
+    .admin-panel-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    .admin-name{
+        padding-right: 10px;
+    }
+    .admin-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin-avatar{
+        height: 32px;
+        width: 32px;
+        margin-right: 10px;
+        background-size: contain!important;
+    }
+}

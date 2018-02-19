@@ -1,0 +1,31 @@
+.next.btn{
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #2666c4;
+  font-size: 16px;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  transition: box-shadow 0.3s linear, opacity 0.3s linear, background-color 0.3s linear;
+  &:hover{
+    color: #fff;
+    filter: alpha(opacity=100);
+    box-shadow: 0 0 10px #2683cc;
+  }
+}
+
+.next-part-btn.btn{
+  padding: 15px 25px;
+  color: $text-test-gray;
+  background-color: $bg-next-part;
+  font-size: 16px;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  transition: box-shadow 0.3s linear, opacity 0.3s linear, color 0.2s linear;
+  &:hover{
+    background-color: #2666c4;
+    color: #fff;
+    filter: alpha(opacity=100);
+    box-shadow: 0 0 10px #2683cc;
+    transition: box-shadow 0.3s linear, opacity 0.3s linear, color 0.2s linear;
+  }
+}
